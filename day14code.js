@@ -35,7 +35,6 @@ function atMostKDistinct(s, k) {
 
   return ans;
 }
-
 const tests = [
   { s: "pqpqs", k: 2, want: 7 },
   { s: "aabacbebebe", k: 3, want: 10 },
